@@ -7,11 +7,19 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('https://github.com/WinhKN/Kro-Images/blob/main/COMM_KronusGenovius.png?raw=true') no-repeat center center/cover;
     color: white;
     text-align: center;
 }
-
+/* Video nền */
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 /* Thanh điều hướng */
 header {
     display: flex;
